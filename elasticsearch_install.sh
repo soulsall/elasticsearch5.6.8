@@ -115,6 +115,6 @@ function set_system()
    sysctl -p 
 }
 
-#install_java
-#install_elasticsearch
+install_java
+install_elasticsearch
 set_system
