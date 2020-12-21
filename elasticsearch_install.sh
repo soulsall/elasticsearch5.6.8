@@ -113,6 +113,8 @@ function set_system()
       echo "fs.file-max = 655360" >>/etc/sysctl.conf
    fi
    sysctl -p 
+   echo "elasticsearch-5.6.8 install complete"
+   echo "You can execute  /etc/init.d/elasticsearch-5.6.8 start  to run the elasticsearch service"
 }
 
 install_java
